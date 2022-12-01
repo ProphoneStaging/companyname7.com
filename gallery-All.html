@@ -1178,7 +1178,7 @@ function runYourFunctionWhenJQueryIsLoaded(fn) {
             <div
         x-data="{
         activeImage: 0,
-        amountOfImages: 0,
+        amountOfImages: 44,
         next() {
             if (this.activeImage < this.amountOfImages - 1)
                 this.activeImage ++;
@@ -1197,6 +1197,930 @@ function runYourFunctionWhenJQueryIsLoaded(fn) {
 
 
     <ul role="list" class="bg-white space-y-12 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-12 sm:space-y-0 lg:grid-cols-3 lg:gap-x-8">
+        
+            
+                <li data-id="gallery_media" data-gallery="" x-cloak x-data="{ shown: false }" x-intersect.full="shown = true" class=" block ">
+                    <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
+                        <button @click="activeImage = 0; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
+                            <div class="aspect-w-3 aspect-h-2">
+                                
+                                
+                                <img  class="object-cover " src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:quality(40)/filters:format(webp)/media/6764b6bc-6afb-4737-a522-f2a957063d30.png" alt="All Photos for COMPANY NAME in , " loading="lazy"/>
+                                
+                                
+                            </div>
+
+                            <div class="space-y-1 text-lg font-medium leading-6">
+                                <p class="line-clamp-3"></p>
+                                <h3 class="text-primary"></h3>
+                            </div>
+                        </button>
+                    </div>
+                </li>
+            
+        
+            
+                <li data-id="gallery_media" data-gallery="" x-cloak x-data="{ shown: false }" x-intersect.full="shown = true" class=" block ">
+                    <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
+                        <button @click="activeImage = 1; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
+                            <div class="aspect-w-3 aspect-h-2">
+                                
+                                
+                                <img  class="object-cover " src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:quality(40)/filters:format(webp)/media/f984cf6b-677a-43a6-bc13-6336b9bead8a.png" alt="All Photos for COMPANY NAME in , " loading="lazy"/>
+                                
+                                
+                            </div>
+
+                            <div class="space-y-1 text-lg font-medium leading-6">
+                                <p class="line-clamp-3"></p>
+                                <h3 class="text-primary"></h3>
+                            </div>
+                        </button>
+                    </div>
+                </li>
+            
+        
+            
+                <li data-id="gallery_media" data-gallery="" x-cloak x-data="{ shown: false }" x-intersect.full="shown = true" class=" block ">
+                    <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
+                        <button @click="activeImage = 2; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
+                            <div class="aspect-w-3 aspect-h-2">
+                                
+                                
+                                <img  class="object-cover " src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:quality(40)/filters:format(webp)/media/30c0a080-3a49-48b1-953a-802fb6fbc807.png" alt="All Photos for COMPANY NAME in , " loading="lazy"/>
+                                
+                                
+                            </div>
+
+                            <div class="space-y-1 text-lg font-medium leading-6">
+                                <p class="line-clamp-3"></p>
+                                <h3 class="text-primary"></h3>
+                            </div>
+                        </button>
+                    </div>
+                </li>
+            
+        
+            
+                <li data-id="gallery_media" data-gallery="" x-cloak x-data="{ shown: false }" x-intersect.full="shown = true" class=" block ">
+                    <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
+                        <button @click="activeImage = 3; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
+                            <div class="aspect-w-3 aspect-h-2">
+                                
+                                
+                                <img  class="object-cover " src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:quality(40)/filters:format(webp)/media/3c9e9cef-4b2b-43d2-ab47-20bf2f198e99.png" alt="All Photos for COMPANY NAME in , " loading="lazy"/>
+                                
+                                
+                            </div>
+
+                            <div class="space-y-1 text-lg font-medium leading-6">
+                                <p class="line-clamp-3"></p>
+                                <h3 class="text-primary"></h3>
+                            </div>
+                        </button>
+                    </div>
+                </li>
+            
+        
+            
+                <li data-id="gallery_media" data-gallery="" x-cloak x-data="{ shown: false }" x-intersect.full="shown = true" class=" block ">
+                    <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
+                        <button @click="activeImage = 4; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
+                            <div class="aspect-w-3 aspect-h-2">
+                                
+                                
+                                <img  class="object-cover " src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:quality(40)/filters:format(webp)/media/24d91593-4b31-48f2-8281-904a2dafa1bb.png" alt="All Photos for COMPANY NAME in , " loading="lazy"/>
+                                
+                                
+                            </div>
+
+                            <div class="space-y-1 text-lg font-medium leading-6">
+                                <p class="line-clamp-3"></p>
+                                <h3 class="text-primary"></h3>
+                            </div>
+                        </button>
+                    </div>
+                </li>
+            
+        
+            
+                <li data-id="gallery_media" data-gallery="" x-cloak x-data="{ shown: false }" x-intersect.full="shown = true" class=" block ">
+                    <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
+                        <button @click="activeImage = 5; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
+                            <div class="aspect-w-3 aspect-h-2">
+                                
+                                
+                                <img  class="object-cover " src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:quality(40)/filters:format(webp)/media/ae875bf7-57bc-47c1-9acf-48b3bf5e4e12.png" alt="All Photos for COMPANY NAME in , " loading="lazy"/>
+                                
+                                
+                            </div>
+
+                            <div class="space-y-1 text-lg font-medium leading-6">
+                                <p class="line-clamp-3"></p>
+                                <h3 class="text-primary"></h3>
+                            </div>
+                        </button>
+                    </div>
+                </li>
+            
+        
+            
+                <li data-id="gallery_media" data-gallery="" x-cloak x-data="{ shown: false }" x-intersect.full="shown = true" class=" block ">
+                    <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
+                        <button @click="activeImage = 6; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
+                            <div class="aspect-w-3 aspect-h-2">
+                                
+                                
+                                <img  class="object-cover " src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:quality(40)/filters:format(webp)/media/9722c8d0-fb4c-465c-a539-55834287df63.png" alt="All Photos for COMPANY NAME in , " loading="lazy"/>
+                                
+                                
+                            </div>
+
+                            <div class="space-y-1 text-lg font-medium leading-6">
+                                <p class="line-clamp-3"></p>
+                                <h3 class="text-primary"></h3>
+                            </div>
+                        </button>
+                    </div>
+                </li>
+            
+        
+            
+                <li data-id="gallery_media" data-gallery="" x-cloak x-data="{ shown: false }" x-intersect.full="shown = true" class=" block ">
+                    <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
+                        <button @click="activeImage = 7; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
+                            <div class="aspect-w-3 aspect-h-2">
+                                
+                                
+                                <img  class="object-cover " src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:quality(40)/filters:format(webp)/media/b3ce3b71-768f-497f-adcd-e3a6ae6b8aa5.png" alt="All Photos for COMPANY NAME in , " loading="lazy"/>
+                                
+                                
+                            </div>
+
+                            <div class="space-y-1 text-lg font-medium leading-6">
+                                <p class="line-clamp-3"></p>
+                                <h3 class="text-primary"></h3>
+                            </div>
+                        </button>
+                    </div>
+                </li>
+            
+        
+            
+                <li data-id="gallery_media" data-gallery="" x-cloak x-data="{ shown: false }" x-intersect.full="shown = true" class=" block ">
+                    <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
+                        <button @click="activeImage = 8; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
+                            <div class="aspect-w-3 aspect-h-2">
+                                
+                                
+                                <img  class="object-cover " src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:quality(40)/filters:format(webp)/media/23c0bc8d-1412-4176-bfe4-27b53580d55d.png" alt="All Photos for COMPANY NAME in , " loading="lazy"/>
+                                
+                                
+                            </div>
+
+                            <div class="space-y-1 text-lg font-medium leading-6">
+                                <p class="line-clamp-3"></p>
+                                <h3 class="text-primary"></h3>
+                            </div>
+                        </button>
+                    </div>
+                </li>
+            
+        
+            
+                <li data-id="gallery_media" data-gallery="" x-cloak x-data="{ shown: false }" x-intersect.full="shown = true" class=" block ">
+                    <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
+                        <button @click="activeImage = 9; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
+                            <div class="aspect-w-3 aspect-h-2">
+                                
+                                
+                                <img  class="object-cover " src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:quality(40)/filters:format(webp)/media/a63e0fb2-eabf-485b-967f-0db016970079.png" alt="All Photos for COMPANY NAME in , " loading="lazy"/>
+                                
+                                
+                            </div>
+
+                            <div class="space-y-1 text-lg font-medium leading-6">
+                                <p class="line-clamp-3"></p>
+                                <h3 class="text-primary"></h3>
+                            </div>
+                        </button>
+                    </div>
+                </li>
+            
+        
+            
+                <li data-id="gallery_media" data-gallery="" x-cloak x-data="{ shown: false }" x-intersect.full="shown = true" class=" block ">
+                    <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
+                        <button @click="activeImage = 10; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
+                            <div class="aspect-w-3 aspect-h-2">
+                                
+                                
+                                <img  class="object-cover " src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:quality(40)/filters:format(webp)/media/71781599-a552-4f91-880d-94da0a7bb122.png" alt="All Photos for COMPANY NAME in , " loading="lazy"/>
+                                
+                                
+                            </div>
+
+                            <div class="space-y-1 text-lg font-medium leading-6">
+                                <p class="line-clamp-3"></p>
+                                <h3 class="text-primary"></h3>
+                            </div>
+                        </button>
+                    </div>
+                </li>
+            
+        
+            
+                <li data-id="gallery_media" data-gallery="" x-cloak x-data="{ shown: false }" x-intersect.full="shown = true" class=" block ">
+                    <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
+                        <button @click="activeImage = 11; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
+                            <div class="aspect-w-3 aspect-h-2">
+                                
+                                
+                                <img  class="object-cover " src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:quality(40)/filters:format(webp)/media/53ba9166-b496-4ca7-b57b-e637021ff185.png" alt="All Photos for COMPANY NAME in , " loading="lazy"/>
+                                
+                                
+                            </div>
+
+                            <div class="space-y-1 text-lg font-medium leading-6">
+                                <p class="line-clamp-3"></p>
+                                <h3 class="text-primary"></h3>
+                            </div>
+                        </button>
+                    </div>
+                </li>
+            
+        
+            
+                <li data-id="gallery_media" data-gallery="" x-cloak x-data="{ shown: false }" x-intersect.full="shown = true" class=" block ">
+                    <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
+                        <button @click="activeImage = 12; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
+                            <div class="aspect-w-3 aspect-h-2">
+                                
+                                
+                                <img  class="object-cover " src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:quality(40)/filters:format(webp)/media/14f9724d-b5a0-41c1-bf66-3259d20e796b.png" alt="All Photos for COMPANY NAME in , " loading="lazy"/>
+                                
+                                
+                            </div>
+
+                            <div class="space-y-1 text-lg font-medium leading-6">
+                                <p class="line-clamp-3"></p>
+                                <h3 class="text-primary"></h3>
+                            </div>
+                        </button>
+                    </div>
+                </li>
+            
+        
+            
+                <li data-id="gallery_media" data-gallery="" x-cloak x-data="{ shown: false }" x-intersect.full="shown = true" class=" block ">
+                    <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
+                        <button @click="activeImage = 13; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
+                            <div class="aspect-w-3 aspect-h-2">
+                                
+                                
+                                <img  class="object-cover " src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:quality(40)/filters:format(webp)/media/7ad08c6b-e941-4d30-ac74-9281f8e33be4.png" alt="All Photos for COMPANY NAME in , " loading="lazy"/>
+                                
+                                
+                            </div>
+
+                            <div class="space-y-1 text-lg font-medium leading-6">
+                                <p class="line-clamp-3"></p>
+                                <h3 class="text-primary"></h3>
+                            </div>
+                        </button>
+                    </div>
+                </li>
+            
+        
+            
+                <li data-id="gallery_media" data-gallery="" x-cloak x-data="{ shown: false }" x-intersect.full="shown = true" class=" block ">
+                    <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
+                        <button @click="activeImage = 14; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
+                            <div class="aspect-w-3 aspect-h-2">
+                                
+                                
+                                <img  class="object-cover " src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:quality(40)/filters:format(webp)/media/506c65b4-a25a-413b-b14b-924da4117714.png" alt="All Photos for COMPANY NAME in , " loading="lazy"/>
+                                
+                                
+                            </div>
+
+                            <div class="space-y-1 text-lg font-medium leading-6">
+                                <p class="line-clamp-3"></p>
+                                <h3 class="text-primary"></h3>
+                            </div>
+                        </button>
+                    </div>
+                </li>
+            
+        
+            
+                <li data-id="gallery_media" data-gallery="" x-cloak x-data="{ shown: false }" x-intersect.full="shown = true" class=" block ">
+                    <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
+                        <button @click="activeImage = 15; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
+                            <div class="aspect-w-3 aspect-h-2">
+                                
+                                
+                                <img  class="object-cover " src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:quality(40)/filters:format(webp)/media/3687d1eb-7e29-4d81-8348-4fa4053a5bc7.png" alt="All Photos for COMPANY NAME in , " loading="lazy"/>
+                                
+                                
+                            </div>
+
+                            <div class="space-y-1 text-lg font-medium leading-6">
+                                <p class="line-clamp-3"></p>
+                                <h3 class="text-primary"></h3>
+                            </div>
+                        </button>
+                    </div>
+                </li>
+            
+        
+            
+                <li data-id="gallery_media" data-gallery="" x-cloak x-data="{ shown: false }" x-intersect.full="shown = true" class=" block ">
+                    <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
+                        <button @click="activeImage = 16; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
+                            <div class="aspect-w-3 aspect-h-2">
+                                
+                                
+                                <img  class="object-cover " src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:quality(40)/filters:format(webp)/media/d945471f-3644-4b38-be3f-5e427f8552bf.png" alt="All Photos for COMPANY NAME in , " loading="lazy"/>
+                                
+                                
+                            </div>
+
+                            <div class="space-y-1 text-lg font-medium leading-6">
+                                <p class="line-clamp-3"></p>
+                                <h3 class="text-primary"></h3>
+                            </div>
+                        </button>
+                    </div>
+                </li>
+            
+        
+            
+                <li data-id="gallery_media" data-gallery="" x-cloak x-data="{ shown: false }" x-intersect.full="shown = true" class=" block ">
+                    <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
+                        <button @click="activeImage = 17; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
+                            <div class="aspect-w-3 aspect-h-2">
+                                
+                                
+                                <img  class="object-cover " src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:quality(40)/filters:format(webp)/media/c8b22a4f-357d-408e-8b7c-8ce6f1640c3e.png" alt="All Photos for COMPANY NAME in , " loading="lazy"/>
+                                
+                                
+                            </div>
+
+                            <div class="space-y-1 text-lg font-medium leading-6">
+                                <p class="line-clamp-3"></p>
+                                <h3 class="text-primary"></h3>
+                            </div>
+                        </button>
+                    </div>
+                </li>
+            
+        
+            
+                <li data-id="gallery_media" data-gallery="" x-cloak x-data="{ shown: false }" x-intersect.full="shown = true" class=" block ">
+                    <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
+                        <button @click="activeImage = 18; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
+                            <div class="aspect-w-3 aspect-h-2">
+                                
+                                
+                                <img  class="object-cover " src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:quality(40)/filters:format(webp)/media/0db13848-0872-41ba-b419-2a3162ea3322.png" alt="All Photos for COMPANY NAME in , " loading="lazy"/>
+                                
+                                
+                            </div>
+
+                            <div class="space-y-1 text-lg font-medium leading-6">
+                                <p class="line-clamp-3"></p>
+                                <h3 class="text-primary"></h3>
+                            </div>
+                        </button>
+                    </div>
+                </li>
+            
+        
+            
+                <li data-id="gallery_media" data-gallery="" x-cloak x-data="{ shown: false }" x-intersect.full="shown = true" class=" block ">
+                    <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
+                        <button @click="activeImage = 19; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
+                            <div class="aspect-w-3 aspect-h-2">
+                                
+                                
+                                <img  class="object-cover " src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:quality(40)/filters:format(webp)/media/787cdccd-e807-4b9e-8532-28a151f28c52.png" alt="All Photos for COMPANY NAME in , " loading="lazy"/>
+                                
+                                
+                            </div>
+
+                            <div class="space-y-1 text-lg font-medium leading-6">
+                                <p class="line-clamp-3"></p>
+                                <h3 class="text-primary"></h3>
+                            </div>
+                        </button>
+                    </div>
+                </li>
+            
+        
+            
+                <li data-id="gallery_media" data-gallery="" x-cloak x-data="{ shown: false }" x-intersect.full="shown = true" class=" block ">
+                    <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
+                        <button @click="activeImage = 20; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
+                            <div class="aspect-w-3 aspect-h-2">
+                                
+                                
+                                <img  class="object-cover " src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:quality(40)/filters:format(webp)/media/d15092a1-3007-44bc-945b-f913500130ab.png" alt="All Photos for COMPANY NAME in , " loading="lazy"/>
+                                
+                                
+                            </div>
+
+                            <div class="space-y-1 text-lg font-medium leading-6">
+                                <p class="line-clamp-3"></p>
+                                <h3 class="text-primary"></h3>
+                            </div>
+                        </button>
+                    </div>
+                </li>
+            
+        
+            
+                <li data-id="gallery_media" data-gallery="" x-cloak x-data="{ shown: false }" x-intersect.full="shown = true" class=" block ">
+                    <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
+                        <button @click="activeImage = 21; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
+                            <div class="aspect-w-3 aspect-h-2">
+                                
+                                
+                                <img  class="object-cover " src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:quality(40)/filters:format(webp)/media/0a06fc1d-15fc-4d62-9a83-1b6de2ca624d.png" alt="All Photos for COMPANY NAME in , " loading="lazy"/>
+                                
+                                
+                            </div>
+
+                            <div class="space-y-1 text-lg font-medium leading-6">
+                                <p class="line-clamp-3"></p>
+                                <h3 class="text-primary"></h3>
+                            </div>
+                        </button>
+                    </div>
+                </li>
+            
+        
+            
+                <li data-id="gallery_media" data-gallery="" x-cloak x-data="{ shown: false }" x-intersect.full="shown = true" class=" block ">
+                    <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
+                        <button @click="activeImage = 22; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
+                            <div class="aspect-w-3 aspect-h-2">
+                                
+                                
+                                <img  class="object-cover " src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:quality(40)/filters:format(webp)/media/81cd6a59-b209-4267-a22d-dd6a754741cd.png" alt="All Photos for COMPANY NAME in , " loading="lazy"/>
+                                
+                                
+                            </div>
+
+                            <div class="space-y-1 text-lg font-medium leading-6">
+                                <p class="line-clamp-3"></p>
+                                <h3 class="text-primary"></h3>
+                            </div>
+                        </button>
+                    </div>
+                </li>
+            
+        
+            
+                <li data-id="gallery_media" data-gallery="" x-cloak x-data="{ shown: false }" x-intersect.full="shown = true" class=" block ">
+                    <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
+                        <button @click="activeImage = 23; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
+                            <div class="aspect-w-3 aspect-h-2">
+                                
+                                
+                                <img  class="object-cover " src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:quality(40)/filters:format(webp)/media/c922b21a-96cc-4259-880b-120fd2414347.png" alt="All Photos for COMPANY NAME in , " loading="lazy"/>
+                                
+                                
+                            </div>
+
+                            <div class="space-y-1 text-lg font-medium leading-6">
+                                <p class="line-clamp-3"></p>
+                                <h3 class="text-primary"></h3>
+                            </div>
+                        </button>
+                    </div>
+                </li>
+            
+        
+            
+                <li data-id="gallery_media" data-gallery="" x-cloak x-data="{ shown: false }" x-intersect.full="shown = true" class=" block ">
+                    <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
+                        <button @click="activeImage = 24; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
+                            <div class="aspect-w-3 aspect-h-2">
+                                
+                                
+                                <img  class="object-cover " src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:quality(40)/filters:format(webp)/media/0c8febd3-5be8-47ab-84e5-cd21ee785b1a.png" alt="All Photos for COMPANY NAME in , " loading="lazy"/>
+                                
+                                
+                            </div>
+
+                            <div class="space-y-1 text-lg font-medium leading-6">
+                                <p class="line-clamp-3"></p>
+                                <h3 class="text-primary"></h3>
+                            </div>
+                        </button>
+                    </div>
+                </li>
+            
+        
+            
+                <li data-id="gallery_media" data-gallery="" x-cloak x-data="{ shown: false }" x-intersect.full="shown = true" class=" block ">
+                    <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
+                        <button @click="activeImage = 25; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
+                            <div class="aspect-w-3 aspect-h-2">
+                                
+                                
+                                <img  class="object-cover " src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:quality(40)/filters:format(webp)/media/2e14e537-a645-470c-892e-513ee2f12363.png" alt="All Photos for COMPANY NAME in , " loading="lazy"/>
+                                
+                                
+                            </div>
+
+                            <div class="space-y-1 text-lg font-medium leading-6">
+                                <p class="line-clamp-3"></p>
+                                <h3 class="text-primary"></h3>
+                            </div>
+                        </button>
+                    </div>
+                </li>
+            
+        
+            
+                <li data-id="gallery_media" data-gallery="" x-cloak x-data="{ shown: false }" x-intersect.full="shown = true" class=" block ">
+                    <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
+                        <button @click="activeImage = 26; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
+                            <div class="aspect-w-3 aspect-h-2">
+                                
+                                
+                                <img  class="object-cover " src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:quality(40)/filters:format(webp)/media/72918490-0f5f-4301-b762-38bc8e5bafe5.png" alt="All Photos for COMPANY NAME in , " loading="lazy"/>
+                                
+                                
+                            </div>
+
+                            <div class="space-y-1 text-lg font-medium leading-6">
+                                <p class="line-clamp-3"></p>
+                                <h3 class="text-primary"></h3>
+                            </div>
+                        </button>
+                    </div>
+                </li>
+            
+        
+            
+                <li data-id="gallery_media" data-gallery="" x-cloak x-data="{ shown: false }" x-intersect.full="shown = true" class=" block ">
+                    <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
+                        <button @click="activeImage = 27; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
+                            <div class="aspect-w-3 aspect-h-2">
+                                
+                                
+                                <img  class="object-cover " src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:quality(40)/filters:format(webp)/media/ae893d25-db68-4df4-89d6-a4a7af870759.png" alt="All Photos for COMPANY NAME in , " loading="lazy"/>
+                                
+                                
+                            </div>
+
+                            <div class="space-y-1 text-lg font-medium leading-6">
+                                <p class="line-clamp-3"></p>
+                                <h3 class="text-primary"></h3>
+                            </div>
+                        </button>
+                    </div>
+                </li>
+            
+        
+            
+                <li data-id="gallery_media" data-gallery="" x-cloak x-data="{ shown: false }" x-intersect.full="shown = true" class=" block ">
+                    <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
+                        <button @click="activeImage = 28; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
+                            <div class="aspect-w-3 aspect-h-2">
+                                
+                                
+                                <img  class="object-cover " src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:quality(40)/filters:format(webp)/media/7ae86ddd-0f05-4f89-8f1b-4e8a456f1dce.png" alt="All Photos for COMPANY NAME in , " loading="lazy"/>
+                                
+                                
+                            </div>
+
+                            <div class="space-y-1 text-lg font-medium leading-6">
+                                <p class="line-clamp-3"></p>
+                                <h3 class="text-primary"></h3>
+                            </div>
+                        </button>
+                    </div>
+                </li>
+            
+        
+            
+                <li data-id="gallery_media" data-gallery="" x-cloak x-data="{ shown: false }" x-intersect.full="shown = true" class=" block ">
+                    <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
+                        <button @click="activeImage = 29; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
+                            <div class="aspect-w-3 aspect-h-2">
+                                
+                                
+                                <img  class="object-cover " src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:quality(40)/filters:format(webp)/media/31b20707-1e0f-4442-879d-9c411de7b6c6.png" alt="All Photos for COMPANY NAME in , " loading="lazy"/>
+                                
+                                
+                            </div>
+
+                            <div class="space-y-1 text-lg font-medium leading-6">
+                                <p class="line-clamp-3"></p>
+                                <h3 class="text-primary"></h3>
+                            </div>
+                        </button>
+                    </div>
+                </li>
+            
+        
+            
+                <li data-id="gallery_media" data-gallery="" x-cloak x-data="{ shown: false }" x-intersect.full="shown = true" class=" block ">
+                    <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
+                        <button @click="activeImage = 30; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
+                            <div class="aspect-w-3 aspect-h-2">
+                                
+                                
+                                <img  class="object-cover " src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:quality(40)/filters:format(webp)/media/3f697c91-72aa-432e-bd31-44d792bec6d6.png" alt="All Photos for COMPANY NAME in , " loading="lazy"/>
+                                
+                                
+                            </div>
+
+                            <div class="space-y-1 text-lg font-medium leading-6">
+                                <p class="line-clamp-3"></p>
+                                <h3 class="text-primary"></h3>
+                            </div>
+                        </button>
+                    </div>
+                </li>
+            
+        
+            
+                <li data-id="gallery_media" data-gallery="" x-cloak x-data="{ shown: false }" x-intersect.full="shown = true" class=" block ">
+                    <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
+                        <button @click="activeImage = 31; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
+                            <div class="aspect-w-3 aspect-h-2">
+                                
+                                
+                                <img  class="object-cover " src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:quality(40)/filters:format(webp)/media/33d734ce-910b-461a-9136-80e57a465d07.png" alt="All Photos for COMPANY NAME in , " loading="lazy"/>
+                                
+                                
+                            </div>
+
+                            <div class="space-y-1 text-lg font-medium leading-6">
+                                <p class="line-clamp-3"></p>
+                                <h3 class="text-primary"></h3>
+                            </div>
+                        </button>
+                    </div>
+                </li>
+            
+        
+            
+                <li data-id="gallery_media" data-gallery="" x-cloak x-data="{ shown: false }" x-intersect.full="shown = true" class=" block ">
+                    <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
+                        <button @click="activeImage = 32; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
+                            <div class="aspect-w-3 aspect-h-2">
+                                
+                                
+                                <img  class="object-cover " src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:quality(40)/filters:format(webp)/media/fb0cea06-39c1-4f2e-9824-458c4911ec4a.png" alt="All Photos for COMPANY NAME in , " loading="lazy"/>
+                                
+                                
+                            </div>
+
+                            <div class="space-y-1 text-lg font-medium leading-6">
+                                <p class="line-clamp-3"></p>
+                                <h3 class="text-primary"></h3>
+                            </div>
+                        </button>
+                    </div>
+                </li>
+            
+        
+            
+                <li data-id="gallery_media" data-gallery="" x-cloak x-data="{ shown: false }" x-intersect.full="shown = true" class=" block ">
+                    <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
+                        <button @click="activeImage = 33; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
+                            <div class="aspect-w-3 aspect-h-2">
+                                
+                                
+                                <img  class="object-cover " src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:quality(40)/filters:format(webp)/media/eebf375e-3d9d-4008-9789-6aad3ebf41cf.png" alt="All Photos for COMPANY NAME in , " loading="lazy"/>
+                                
+                                
+                            </div>
+
+                            <div class="space-y-1 text-lg font-medium leading-6">
+                                <p class="line-clamp-3"></p>
+                                <h3 class="text-primary"></h3>
+                            </div>
+                        </button>
+                    </div>
+                </li>
+            
+        
+            
+                <li data-id="gallery_media" data-gallery="" x-cloak x-data="{ shown: false }" x-intersect.full="shown = true" class=" block ">
+                    <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
+                        <button @click="activeImage = 34; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
+                            <div class="aspect-w-3 aspect-h-2">
+                                
+                                
+                                <img  class="object-cover " src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:quality(40)/filters:format(webp)/media/33110c63-8f4f-422e-a9be-66ed6e98d0a7.png" alt="All Photos for COMPANY NAME in , " loading="lazy"/>
+                                
+                                
+                            </div>
+
+                            <div class="space-y-1 text-lg font-medium leading-6">
+                                <p class="line-clamp-3"></p>
+                                <h3 class="text-primary"></h3>
+                            </div>
+                        </button>
+                    </div>
+                </li>
+            
+        
+            
+                <li data-id="gallery_media" data-gallery="" x-cloak x-data="{ shown: false }" x-intersect.full="shown = true" class=" block ">
+                    <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
+                        <button @click="activeImage = 35; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
+                            <div class="aspect-w-3 aspect-h-2">
+                                
+                                
+                                <img  class="object-cover " src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:quality(40)/filters:format(webp)/media/231a4198-7fbe-431f-8ede-394dc3a8631e.png" alt="All Photos for COMPANY NAME in , " loading="lazy"/>
+                                
+                                
+                            </div>
+
+                            <div class="space-y-1 text-lg font-medium leading-6">
+                                <p class="line-clamp-3"></p>
+                                <h3 class="text-primary"></h3>
+                            </div>
+                        </button>
+                    </div>
+                </li>
+            
+        
+            
+                <li data-id="gallery_media" data-gallery="" x-cloak x-data="{ shown: false }" x-intersect.full="shown = true" class=" block ">
+                    <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
+                        <button @click="activeImage = 36; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
+                            <div class="aspect-w-3 aspect-h-2">
+                                
+                                
+                                <img  class="object-cover " src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:quality(40)/filters:format(webp)/media/518ee3e1-71c4-49b5-9003-babd782c43d3.png" alt="All Photos for COMPANY NAME in , " loading="lazy"/>
+                                
+                                
+                            </div>
+
+                            <div class="space-y-1 text-lg font-medium leading-6">
+                                <p class="line-clamp-3"></p>
+                                <h3 class="text-primary"></h3>
+                            </div>
+                        </button>
+                    </div>
+                </li>
+            
+        
+            
+                <li data-id="gallery_media" data-gallery="" x-cloak x-data="{ shown: false }" x-intersect.full="shown = true" class=" block ">
+                    <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
+                        <button @click="activeImage = 37; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
+                            <div class="aspect-w-3 aspect-h-2">
+                                
+                                
+                                <img  class="object-cover " src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:quality(40)/filters:format(webp)/media/5bbde71b-2251-43a2-8cb1-0eb5911084ff.png" alt="All Photos for COMPANY NAME in , " loading="lazy"/>
+                                
+                                
+                            </div>
+
+                            <div class="space-y-1 text-lg font-medium leading-6">
+                                <p class="line-clamp-3"></p>
+                                <h3 class="text-primary"></h3>
+                            </div>
+                        </button>
+                    </div>
+                </li>
+            
+        
+            
+                <li data-id="gallery_media" data-gallery="" x-cloak x-data="{ shown: false }" x-intersect.full="shown = true" class=" block ">
+                    <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
+                        <button @click="activeImage = 38; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
+                            <div class="aspect-w-3 aspect-h-2">
+                                
+                                
+                                <img  class="object-cover " src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:quality(40)/filters:format(webp)/media/39571afd-0c1c-43b0-a84c-6843f4c178fa.png" alt="All Photos for COMPANY NAME in , " loading="lazy"/>
+                                
+                                
+                            </div>
+
+                            <div class="space-y-1 text-lg font-medium leading-6">
+                                <p class="line-clamp-3"></p>
+                                <h3 class="text-primary"></h3>
+                            </div>
+                        </button>
+                    </div>
+                </li>
+            
+        
+            
+                <li data-id="gallery_media" data-gallery="" x-cloak x-data="{ shown: false }" x-intersect.full="shown = true" class=" block ">
+                    <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
+                        <button @click="activeImage = 39; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
+                            <div class="aspect-w-3 aspect-h-2">
+                                
+                                
+                                <img  class="object-cover " src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:quality(40)/filters:format(webp)/media/3642aad7-0db5-4229-b3b4-2ede37d6e1b9.png" alt="All Photos for COMPANY NAME in , " loading="lazy"/>
+                                
+                                
+                            </div>
+
+                            <div class="space-y-1 text-lg font-medium leading-6">
+                                <p class="line-clamp-3"></p>
+                                <h3 class="text-primary"></h3>
+                            </div>
+                        </button>
+                    </div>
+                </li>
+            
+        
+            
+                <li data-id="gallery_media" data-gallery="" x-cloak x-data="{ shown: false }" x-intersect.full="shown = true" class=" block ">
+                    <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
+                        <button @click="activeImage = 40; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
+                            <div class="aspect-w-3 aspect-h-2">
+                                
+                                
+                                <img  class="object-cover " src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:quality(40)/filters:format(webp)/media/673b0111-4968-4fe3-ac14-cb6efdc6835f.png" alt="All Photos for COMPANY NAME in , " loading="lazy"/>
+                                
+                                
+                            </div>
+
+                            <div class="space-y-1 text-lg font-medium leading-6">
+                                <p class="line-clamp-3"></p>
+                                <h3 class="text-primary"></h3>
+                            </div>
+                        </button>
+                    </div>
+                </li>
+            
+        
+            
+                <li data-id="gallery_media" data-gallery="" x-cloak x-data="{ shown: false }" x-intersect.full="shown = true" class=" block ">
+                    <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
+                        <button @click="activeImage = 41; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
+                            <div class="aspect-w-3 aspect-h-2">
+                                
+                                
+                                <img  class="object-cover " src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:quality(40)/filters:format(webp)/media/20d0cb41-8339-44e7-be18-7a1eeab0c393.png" alt="All Photos for COMPANY NAME in , " loading="lazy"/>
+                                
+                                
+                            </div>
+
+                            <div class="space-y-1 text-lg font-medium leading-6">
+                                <p class="line-clamp-3"></p>
+                                <h3 class="text-primary"></h3>
+                            </div>
+                        </button>
+                    </div>
+                </li>
+            
+        
+            
+                <li data-id="gallery_media" data-gallery="" x-cloak x-data="{ shown: false }" x-intersect.full="shown = true" class=" block ">
+                    <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
+                        <button @click="activeImage = 42; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
+                            <div class="aspect-w-3 aspect-h-2">
+                                
+                                
+                                <img  class="object-cover " src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:quality(40)/filters:format(webp)/media/a295760d-cdde-4951-86ec-4216ff519682.png" alt="All Photos for COMPANY NAME in , " loading="lazy"/>
+                                
+                                
+                            </div>
+
+                            <div class="space-y-1 text-lg font-medium leading-6">
+                                <p class="line-clamp-3"></p>
+                                <h3 class="text-primary"></h3>
+                            </div>
+                        </button>
+                    </div>
+                </li>
+            
+        
+            
+                <li data-id="gallery_media" data-gallery="" x-cloak x-data="{ shown: false }" x-intersect.full="shown = true" class=" block ">
+                    <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
+                        <button @click="activeImage = 43; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
+                            <div class="aspect-w-3 aspect-h-2">
+                                
+                                
+                                <img  class="object-cover " src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:quality(40)/filters:format(webp)/media/9f3e6b5c-8d6b-48ae-be72-8722dd06c580.png" alt="All Photos for COMPANY NAME in , " loading="lazy"/>
+                                
+                                
+                            </div>
+
+                            <div class="space-y-1 text-lg font-medium leading-6">
+                                <p class="line-clamp-3"></p>
+                                <h3 class="text-primary"></h3>
+                            </div>
+                        </button>
+                    </div>
+                </li>
+            
         
     </ul>
 
@@ -1240,6 +2164,314 @@ function runYourFunctionWhenJQueryIsLoaded(fn) {
                             <span id="carousel-content-label" class="sr-only" hidden>Carousel</span>
 
                             <ul tabindex="0" role="listbox" aria-labelledby="carousel-content-label" class="relative w-full">
+                                
+                                <li class="flex flex-col" x-show="activeImage === 0">
+                                    
+                                    <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/media/6764b6bc-6afb-4737-a522-f2a957063d30.png" alt="All Photos for COMPANY NAME in , " loading="lazy"/>
+                                    <p lorem="1" class="mt-3 text-gray-500"></p>
+                                    
+                                </li>
+                                
+                                <li class="flex flex-col" x-show="activeImage === 1">
+                                    
+                                    <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/media/f984cf6b-677a-43a6-bc13-6336b9bead8a.png" alt="All Photos for COMPANY NAME in , " loading="lazy"/>
+                                    <p lorem="1" class="mt-3 text-gray-500"></p>
+                                    
+                                </li>
+                                
+                                <li class="flex flex-col" x-show="activeImage === 2">
+                                    
+                                    <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/media/30c0a080-3a49-48b1-953a-802fb6fbc807.png" alt="All Photos for COMPANY NAME in , " loading="lazy"/>
+                                    <p lorem="1" class="mt-3 text-gray-500"></p>
+                                    
+                                </li>
+                                
+                                <li class="flex flex-col" x-show="activeImage === 3">
+                                    
+                                    <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/media/3c9e9cef-4b2b-43d2-ab47-20bf2f198e99.png" alt="All Photos for COMPANY NAME in , " loading="lazy"/>
+                                    <p lorem="1" class="mt-3 text-gray-500"></p>
+                                    
+                                </li>
+                                
+                                <li class="flex flex-col" x-show="activeImage === 4">
+                                    
+                                    <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/media/24d91593-4b31-48f2-8281-904a2dafa1bb.png" alt="All Photos for COMPANY NAME in , " loading="lazy"/>
+                                    <p lorem="1" class="mt-3 text-gray-500"></p>
+                                    
+                                </li>
+                                
+                                <li class="flex flex-col" x-show="activeImage === 5">
+                                    
+                                    <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/media/ae875bf7-57bc-47c1-9acf-48b3bf5e4e12.png" alt="All Photos for COMPANY NAME in , " loading="lazy"/>
+                                    <p lorem="1" class="mt-3 text-gray-500"></p>
+                                    
+                                </li>
+                                
+                                <li class="flex flex-col" x-show="activeImage === 6">
+                                    
+                                    <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/media/9722c8d0-fb4c-465c-a539-55834287df63.png" alt="All Photos for COMPANY NAME in , " loading="lazy"/>
+                                    <p lorem="1" class="mt-3 text-gray-500"></p>
+                                    
+                                </li>
+                                
+                                <li class="flex flex-col" x-show="activeImage === 7">
+                                    
+                                    <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/media/b3ce3b71-768f-497f-adcd-e3a6ae6b8aa5.png" alt="All Photos for COMPANY NAME in , " loading="lazy"/>
+                                    <p lorem="1" class="mt-3 text-gray-500"></p>
+                                    
+                                </li>
+                                
+                                <li class="flex flex-col" x-show="activeImage === 8">
+                                    
+                                    <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/media/23c0bc8d-1412-4176-bfe4-27b53580d55d.png" alt="All Photos for COMPANY NAME in , " loading="lazy"/>
+                                    <p lorem="1" class="mt-3 text-gray-500"></p>
+                                    
+                                </li>
+                                
+                                <li class="flex flex-col" x-show="activeImage === 9">
+                                    
+                                    <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/media/a63e0fb2-eabf-485b-967f-0db016970079.png" alt="All Photos for COMPANY NAME in , " loading="lazy"/>
+                                    <p lorem="1" class="mt-3 text-gray-500"></p>
+                                    
+                                </li>
+                                
+                                <li class="flex flex-col" x-show="activeImage === 10">
+                                    
+                                    <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/media/71781599-a552-4f91-880d-94da0a7bb122.png" alt="All Photos for COMPANY NAME in , " loading="lazy"/>
+                                    <p lorem="1" class="mt-3 text-gray-500"></p>
+                                    
+                                </li>
+                                
+                                <li class="flex flex-col" x-show="activeImage === 11">
+                                    
+                                    <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/media/53ba9166-b496-4ca7-b57b-e637021ff185.png" alt="All Photos for COMPANY NAME in , " loading="lazy"/>
+                                    <p lorem="1" class="mt-3 text-gray-500"></p>
+                                    
+                                </li>
+                                
+                                <li class="flex flex-col" x-show="activeImage === 12">
+                                    
+                                    <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/media/14f9724d-b5a0-41c1-bf66-3259d20e796b.png" alt="All Photos for COMPANY NAME in , " loading="lazy"/>
+                                    <p lorem="1" class="mt-3 text-gray-500"></p>
+                                    
+                                </li>
+                                
+                                <li class="flex flex-col" x-show="activeImage === 13">
+                                    
+                                    <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/media/7ad08c6b-e941-4d30-ac74-9281f8e33be4.png" alt="All Photos for COMPANY NAME in , " loading="lazy"/>
+                                    <p lorem="1" class="mt-3 text-gray-500"></p>
+                                    
+                                </li>
+                                
+                                <li class="flex flex-col" x-show="activeImage === 14">
+                                    
+                                    <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/media/506c65b4-a25a-413b-b14b-924da4117714.png" alt="All Photos for COMPANY NAME in , " loading="lazy"/>
+                                    <p lorem="1" class="mt-3 text-gray-500"></p>
+                                    
+                                </li>
+                                
+                                <li class="flex flex-col" x-show="activeImage === 15">
+                                    
+                                    <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/media/3687d1eb-7e29-4d81-8348-4fa4053a5bc7.png" alt="All Photos for COMPANY NAME in , " loading="lazy"/>
+                                    <p lorem="1" class="mt-3 text-gray-500"></p>
+                                    
+                                </li>
+                                
+                                <li class="flex flex-col" x-show="activeImage === 16">
+                                    
+                                    <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/media/d945471f-3644-4b38-be3f-5e427f8552bf.png" alt="All Photos for COMPANY NAME in , " loading="lazy"/>
+                                    <p lorem="1" class="mt-3 text-gray-500"></p>
+                                    
+                                </li>
+                                
+                                <li class="flex flex-col" x-show="activeImage === 17">
+                                    
+                                    <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/media/c8b22a4f-357d-408e-8b7c-8ce6f1640c3e.png" alt="All Photos for COMPANY NAME in , " loading="lazy"/>
+                                    <p lorem="1" class="mt-3 text-gray-500"></p>
+                                    
+                                </li>
+                                
+                                <li class="flex flex-col" x-show="activeImage === 18">
+                                    
+                                    <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/media/0db13848-0872-41ba-b419-2a3162ea3322.png" alt="All Photos for COMPANY NAME in , " loading="lazy"/>
+                                    <p lorem="1" class="mt-3 text-gray-500"></p>
+                                    
+                                </li>
+                                
+                                <li class="flex flex-col" x-show="activeImage === 19">
+                                    
+                                    <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/media/787cdccd-e807-4b9e-8532-28a151f28c52.png" alt="All Photos for COMPANY NAME in , " loading="lazy"/>
+                                    <p lorem="1" class="mt-3 text-gray-500"></p>
+                                    
+                                </li>
+                                
+                                <li class="flex flex-col" x-show="activeImage === 20">
+                                    
+                                    <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/media/d15092a1-3007-44bc-945b-f913500130ab.png" alt="All Photos for COMPANY NAME in , " loading="lazy"/>
+                                    <p lorem="1" class="mt-3 text-gray-500"></p>
+                                    
+                                </li>
+                                
+                                <li class="flex flex-col" x-show="activeImage === 21">
+                                    
+                                    <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/media/0a06fc1d-15fc-4d62-9a83-1b6de2ca624d.png" alt="All Photos for COMPANY NAME in , " loading="lazy"/>
+                                    <p lorem="1" class="mt-3 text-gray-500"></p>
+                                    
+                                </li>
+                                
+                                <li class="flex flex-col" x-show="activeImage === 22">
+                                    
+                                    <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/media/81cd6a59-b209-4267-a22d-dd6a754741cd.png" alt="All Photos for COMPANY NAME in , " loading="lazy"/>
+                                    <p lorem="1" class="mt-3 text-gray-500"></p>
+                                    
+                                </li>
+                                
+                                <li class="flex flex-col" x-show="activeImage === 23">
+                                    
+                                    <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/media/c922b21a-96cc-4259-880b-120fd2414347.png" alt="All Photos for COMPANY NAME in , " loading="lazy"/>
+                                    <p lorem="1" class="mt-3 text-gray-500"></p>
+                                    
+                                </li>
+                                
+                                <li class="flex flex-col" x-show="activeImage === 24">
+                                    
+                                    <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/media/0c8febd3-5be8-47ab-84e5-cd21ee785b1a.png" alt="All Photos for COMPANY NAME in , " loading="lazy"/>
+                                    <p lorem="1" class="mt-3 text-gray-500"></p>
+                                    
+                                </li>
+                                
+                                <li class="flex flex-col" x-show="activeImage === 25">
+                                    
+                                    <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/media/2e14e537-a645-470c-892e-513ee2f12363.png" alt="All Photos for COMPANY NAME in , " loading="lazy"/>
+                                    <p lorem="1" class="mt-3 text-gray-500"></p>
+                                    
+                                </li>
+                                
+                                <li class="flex flex-col" x-show="activeImage === 26">
+                                    
+                                    <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/media/72918490-0f5f-4301-b762-38bc8e5bafe5.png" alt="All Photos for COMPANY NAME in , " loading="lazy"/>
+                                    <p lorem="1" class="mt-3 text-gray-500"></p>
+                                    
+                                </li>
+                                
+                                <li class="flex flex-col" x-show="activeImage === 27">
+                                    
+                                    <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/media/ae893d25-db68-4df4-89d6-a4a7af870759.png" alt="All Photos for COMPANY NAME in , " loading="lazy"/>
+                                    <p lorem="1" class="mt-3 text-gray-500"></p>
+                                    
+                                </li>
+                                
+                                <li class="flex flex-col" x-show="activeImage === 28">
+                                    
+                                    <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/media/7ae86ddd-0f05-4f89-8f1b-4e8a456f1dce.png" alt="All Photos for COMPANY NAME in , " loading="lazy"/>
+                                    <p lorem="1" class="mt-3 text-gray-500"></p>
+                                    
+                                </li>
+                                
+                                <li class="flex flex-col" x-show="activeImage === 29">
+                                    
+                                    <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/media/31b20707-1e0f-4442-879d-9c411de7b6c6.png" alt="All Photos for COMPANY NAME in , " loading="lazy"/>
+                                    <p lorem="1" class="mt-3 text-gray-500"></p>
+                                    
+                                </li>
+                                
+                                <li class="flex flex-col" x-show="activeImage === 30">
+                                    
+                                    <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/media/3f697c91-72aa-432e-bd31-44d792bec6d6.png" alt="All Photos for COMPANY NAME in , " loading="lazy"/>
+                                    <p lorem="1" class="mt-3 text-gray-500"></p>
+                                    
+                                </li>
+                                
+                                <li class="flex flex-col" x-show="activeImage === 31">
+                                    
+                                    <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/media/33d734ce-910b-461a-9136-80e57a465d07.png" alt="All Photos for COMPANY NAME in , " loading="lazy"/>
+                                    <p lorem="1" class="mt-3 text-gray-500"></p>
+                                    
+                                </li>
+                                
+                                <li class="flex flex-col" x-show="activeImage === 32">
+                                    
+                                    <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/media/fb0cea06-39c1-4f2e-9824-458c4911ec4a.png" alt="All Photos for COMPANY NAME in , " loading="lazy"/>
+                                    <p lorem="1" class="mt-3 text-gray-500"></p>
+                                    
+                                </li>
+                                
+                                <li class="flex flex-col" x-show="activeImage === 33">
+                                    
+                                    <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/media/eebf375e-3d9d-4008-9789-6aad3ebf41cf.png" alt="All Photos for COMPANY NAME in , " loading="lazy"/>
+                                    <p lorem="1" class="mt-3 text-gray-500"></p>
+                                    
+                                </li>
+                                
+                                <li class="flex flex-col" x-show="activeImage === 34">
+                                    
+                                    <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/media/33110c63-8f4f-422e-a9be-66ed6e98d0a7.png" alt="All Photos for COMPANY NAME in , " loading="lazy"/>
+                                    <p lorem="1" class="mt-3 text-gray-500"></p>
+                                    
+                                </li>
+                                
+                                <li class="flex flex-col" x-show="activeImage === 35">
+                                    
+                                    <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/media/231a4198-7fbe-431f-8ede-394dc3a8631e.png" alt="All Photos for COMPANY NAME in , " loading="lazy"/>
+                                    <p lorem="1" class="mt-3 text-gray-500"></p>
+                                    
+                                </li>
+                                
+                                <li class="flex flex-col" x-show="activeImage === 36">
+                                    
+                                    <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/media/518ee3e1-71c4-49b5-9003-babd782c43d3.png" alt="All Photos for COMPANY NAME in , " loading="lazy"/>
+                                    <p lorem="1" class="mt-3 text-gray-500"></p>
+                                    
+                                </li>
+                                
+                                <li class="flex flex-col" x-show="activeImage === 37">
+                                    
+                                    <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/media/5bbde71b-2251-43a2-8cb1-0eb5911084ff.png" alt="All Photos for COMPANY NAME in , " loading="lazy"/>
+                                    <p lorem="1" class="mt-3 text-gray-500"></p>
+                                    
+                                </li>
+                                
+                                <li class="flex flex-col" x-show="activeImage === 38">
+                                    
+                                    <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/media/39571afd-0c1c-43b0-a84c-6843f4c178fa.png" alt="All Photos for COMPANY NAME in , " loading="lazy"/>
+                                    <p lorem="1" class="mt-3 text-gray-500"></p>
+                                    
+                                </li>
+                                
+                                <li class="flex flex-col" x-show="activeImage === 39">
+                                    
+                                    <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/media/3642aad7-0db5-4229-b3b4-2ede37d6e1b9.png" alt="All Photos for COMPANY NAME in , " loading="lazy"/>
+                                    <p lorem="1" class="mt-3 text-gray-500"></p>
+                                    
+                                </li>
+                                
+                                <li class="flex flex-col" x-show="activeImage === 40">
+                                    
+                                    <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/media/673b0111-4968-4fe3-ac14-cb6efdc6835f.png" alt="All Photos for COMPANY NAME in , " loading="lazy"/>
+                                    <p lorem="1" class="mt-3 text-gray-500"></p>
+                                    
+                                </li>
+                                
+                                <li class="flex flex-col" x-show="activeImage === 41">
+                                    
+                                    <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/media/20d0cb41-8339-44e7-be18-7a1eeab0c393.png" alt="All Photos for COMPANY NAME in , " loading="lazy"/>
+                                    <p lorem="1" class="mt-3 text-gray-500"></p>
+                                    
+                                </li>
+                                
+                                <li class="flex flex-col" x-show="activeImage === 42">
+                                    
+                                    <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/media/a295760d-cdde-4951-86ec-4216ff519682.png" alt="All Photos for COMPANY NAME in , " loading="lazy"/>
+                                    <p lorem="1" class="mt-3 text-gray-500"></p>
+                                    
+                                </li>
+                                
+                                <li class="flex flex-col" x-show="activeImage === 43">
+                                    
+                                    <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/media/9f3e6b5c-8d6b-48ae-be72-8722dd06c580.png" alt="All Photos for COMPANY NAME in , " loading="lazy"/>
+                                    <p lorem="1" class="mt-3 text-gray-500"></p>
+                                    
+                                </li>
                                 
                             </ul>
 
@@ -2041,6 +3273,16 @@ runYourFunctionWhenJQueryIsLoaded(nacFunction);
                                   >Home</a
                               >
                           </li>
+                          
+                              
+                              <li>
+                                  <a
+                                      href="#gallery"
+                                      class="p-1 text-base text-gray-100 rounded hover:text-gray-300 focus:ring-2 focus:outline-none ring-white ring-opacity-75"
+                                      >Gallery</a
+                                  >
+                              </li>
+                              
                           
                           
                           <li>
